@@ -27,3 +27,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Added by Mthokozisi */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  padding: 16px;
+}
+
+.right {
+  display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 40px;
+}
+
+.card {
+  height: 350px;
+  width: 330px;
+  padding: 16px;
+  min-width: 0;
+}
